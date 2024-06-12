@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    background-image: linear-gradient(black, #4D869C);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    height: auto;
+    width: 90%;
+    background-color: #222831;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 50px black;
+    margin-bottom: 30px;
+}
+
+/* Navigation */
+nav {
+    text-align: end;
+}
+
+.TAB {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin-right: 15px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.TAB:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+/* Description */
+#descr {
+    width: 50%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #EEEEEE;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.spancolor {
+    color: #08dbfa;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#start {
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-left: 20%;
+}
+
+/* Table */
+table {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+td {
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+td:hover {
+    color: #08dbfa;
+}
+
+#persoinfo,
+#skills,
+#contacttitle {
+    color: white;
+}
+
+/* Skills */
+.skills {
+    width: auto;
+    height: 300px;
+    background-color: #08dbfa;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    padding: 20px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.skills:hover {
+    transform: rotateY(180deg);
+}
+
+.skillstitle {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.picskills {
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Contact */
+.contact {
+    width: auto;
+    height: 300px;
+    background-color: #08dbfa;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    padding: 20px;
+}
+
+.piccontact {
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Image Styles */
+img.rounded {
+    border-radius: 360px;
+}
+
